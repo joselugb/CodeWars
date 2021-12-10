@@ -15,8 +15,7 @@
 ##spin_words("Hey fellow warriors")
 ##spin_words("This sentence is a sentence")
 
-def spin_words(sentence):
-    cc = 0    
+def spin_words(sentence):     
     auxlista = []
     lista = sentence.split()    
     for salida in lista:
